@@ -1,7 +1,37 @@
 *{
     margin:0px;
     padding:0px;
+    font-family: 'Lato', sans-serif;
+}
+.primary-btn{
+    background:#FF5959;
+    color:#FFFFFF;
+    border:none;
+    border-radius:5px;
+    padding:15px 25px;
+    font-size:18px;
+    font-weight:400;
 }
 #header{
-    background-image:url('images/');
+    background-image:url('images/donation6.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    padding:200px 100px;
+}
+#header .header-title{
+    font-weight:800;
+    font-size:45px;
+    color:#ffffff;
+    text-align:center;
+}
+#header .header-describtion{
+    font-size:20px;
+    color:#eeeeee;
+    font-weight:400;
+    text-align:center;
+    margin-bottom:30px;
+}
+#header .primary-btn{
+    display:block;
+    margin:0px auto;
 }
