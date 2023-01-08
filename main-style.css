@@ -11,7 +11,14 @@
     padding:15px 25px;
     font-size:18px;
     font-weight:400;
+    cursor:pointer;
 }
+.primary-btn:hover{
+    background:#dddddd;
+    color:red;
+    transition:all 0.4s ease;
+}
+
 #header{
     background-image:url('images/donation6.jpg');
     background-repeat:no-repeat;
