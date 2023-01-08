@@ -31,7 +31,7 @@
     color:#ffffff;
     text-align:center;
 }
-#header .header-describtion{
+#header .header-description{
     font-size:20px;
     color:#eeeeee;
     font-weight:400;
@@ -41,4 +41,82 @@
 #header .primary-btn{
     display:block;
     margin:0px auto;
+}
+#donate{
+    padding:100px;
+}
+#donate .donate-header{
+    text-align:center;
+    font-size:45px;
+    font-weight:800;
+    margin-bottom:50px;
+    color:#000000;
+}
+#donate .donate-description{
+    text-align:center;
+    color:#707070;
+    font-size:20px;
+    font-weight:400;
+    margin-bottom:50px;
+}
+#donate .btn-box{
+    text-align:center;
+    margin:0px 100px;
+}
+.btn-box .count-btn{
+    margin-right:20px;
+    border:none;
+    background-color:#FAFAFA;
+    padding:35px 25px;
+    font-size:35px;
+    font-weight:700;
+    color:#707070;
+}
+.btn-box .count-btn-two{
+    background:#FFEEEE;
+    color:#FF5959;
+    border-radius:5px;
+    border:2px solid #FF7777;
+    color:#FF7777;
+    padding:35px 25px;
+    font-size:35px;
+    font-weight:700;
+}
+/* design button box */
+
+.btn-box-description{
+    font-size:25px;
+    font-weight:500;
+    color:#B3B3B3;
+    margin-top:60px;
+}
+.btn-box-hr{
+    color:#B3B3B3;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+/* End donation count design */
+
+/* Start donate plane design */
+#donate-plan{
+    padding:50px 200px;
+}
+#donate-plan .donate-plan-title{
+    text-align:center;
+    font-size:45px;
+    font-weight:800;
+    margin-bottom:50px;
+    color:#000000;
+}
+#donate-plan .donate-plan-text{
+    text-align:center;
+    color:#707070;
+    font-size:20px;
+    font-weight:400;
+    margin-bottom:50px;
+}
+.plan-box-wraper{
+    display:flex;
+    gap:40px;
+    justify-content:center;
 }
